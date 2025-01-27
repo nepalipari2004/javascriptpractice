@@ -37,4 +37,6 @@ const multiply = (...nums) => (
 
 console.log(multiply(9,8,7));
 
-TEST
+
+
+
