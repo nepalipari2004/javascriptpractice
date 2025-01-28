@@ -1,20 +1,11 @@
-const allLIs = document.querySelectorAll('li');
+// const todo = document.querySelector('#todos .todo');
+// todo.style.color  = 'gray';
+// todo.style.textDecoration = 'line-through'
+// todo.style.opacity = '50%';
 
-for (let i = 0; i < allLIs.length; i++)
-{
-    allLIs[i].innerText = 'WE THE CHAMPS!'
-}
 
-for (let li of allLIs)
-{
-    li.innerHTML = "WE ARE <u>  THE CHAMPS! </u>"
-}
+const newImg = document.createElement('img');
+newImg.src = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gettyimages.com%2Fphotos%2Fswayambu&psig=AOvVaw02EiFYaANwWnzneseP9q_G&ust=1738088781793000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCPjN7rXDlosDFQAAAAAdAAAAABAK';
+newImg.style.width = "300px";
 
-const alllis = document.querySelectorAll('li');
-const colors = ['red', 'orange','green','blue', 'purple'];
-
-allLIs.forEach((li, i) => {
-    const color = colors[i];
-    console.log(el, color);
-    li.style.color = color;
-});
+document.body.appendChild(newImg);
